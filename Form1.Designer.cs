@@ -81,12 +81,14 @@
             // button1
             // 
             button1.Font = new Font("맑은 고딕", 10.125F, FontStyle.Regular, GraphicsUnit.Point, 129);
+            button1.ForeColor = Color.Black;
             button1.Location = new Point(862, 511);
             button1.Name = "button1";
             button1.Size = new Size(253, 117);
             button1.TabIndex = 4;
             button1.Text = "배경색 랜덤 변경";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
