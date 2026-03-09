@@ -34,5 +34,10 @@ namespace MyBusinessCard
                 }
             );
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Properties.Resources.수원대7;
+        }
     }
 }
