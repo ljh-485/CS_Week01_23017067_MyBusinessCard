@@ -23,5 +23,16 @@ namespace MyBusinessCard
             //0~255 사이의 R, G, B 값을 무작위로 생성하여 배경색을 변경
             this.BackColor = Color.FromArgb(rd.Next(256), rd.Next(256), rd.Next(256));
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(
+                new System.Diagnostics.ProcessStartInfo
+                {
+                    FileName = "https://github.com/ljh-485",
+                    UseShellExecute = true
+                }
+            );
+        }
     }
 }

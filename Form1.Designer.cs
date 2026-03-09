@@ -33,6 +33,7 @@
             label2 = new Label();
             label3 = new Label();
             button1 = new Button();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -90,11 +91,25 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // button2
+            // 
+            button2.BackColor = Color.Black;
+            button2.Font = new Font("맑은 고딕", 16.125F, FontStyle.Regular, GraphicsUnit.Point, 129);
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(862, 432);
+            button2.Name = "button2";
+            button2.Size = new Size(253, 73);
+            button2.TabIndex = 5;
+            button2.Text = "Github";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(14F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1199, 764);
+            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -114,5 +129,6 @@
         private Label label2;
         private Label label3;
         private Button button1;
+        private Button button2;
     }
 }
