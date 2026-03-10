@@ -39,5 +39,15 @@ namespace MyBusinessCard
         {
             pictureBox1.Image = Properties.Resources.수원대7;
         }
-    }
+
+        private void pictureBox1_MouseEnter(object sender, EventArgs e)
+        {
+            pictureBox1.BorderStyle = BorderStyle.Fixed3D;
+        }
+        
+        private void pictureBox1_MouseLeave_1(object sender, EventArgs e)
+        {
+            pictureBox1.BorderStyle = BorderStyle.None;
+        }
+    } 
 }
